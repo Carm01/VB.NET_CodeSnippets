@@ -1,4 +1,12 @@
-﻿Public Class ProcessGuardian
+
+Public Class Firefox
+'' Usage 
+Dim pm As New ProcessGuardian()
+pm.TerminateFirefoxProcesses("C:\Program Files\Mozilla Firefox\furefox,exe")`
+End Class
+
+
+Public Class ProcessGuardian
 
     Public Sub TerminateFirefoxProcesses(ByVal targetDirectory As String)
         Dim processes = Process.GetProcessesByName("firefox")
