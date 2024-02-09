@@ -2,7 +2,7 @@
 Public Class Firefox
 '' Usage 
 Dim pm As New ProcessGuardian()
-pm.TerminateFirefoxProcesses("C:\Program Files\Mozilla Firefox\furefox,exe")`
+pm.TerminateFirefoxProcesses("C:\Program Files\Mozilla Firefox\firefox,exe")
 End Class
 
 
